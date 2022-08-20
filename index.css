@@ -1,0 +1,250 @@
+
+::-webkit-scrollbar{
+    display: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* background-color: yellow; */
+    font-family:sans-serif;
+    width: auto;
+}
+.container{
+    background-color:white;
+    border: 2px solid blue;
+   
+    
+}
+.header{
+    background-color:#383CC1;
+    color: white;
+    width: 100%;
+    padding: 15px;
+    margin: auto;
+    text-align: center;
+}
+.innerContainer{
+   
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid #CAD5E2;
+    box-shadow: 2px 2px 10px 5px #CAD5E2;
+}
+.inhead{
+    background-color: white;
+    margin: 10px auto;
+}
+.inCard1,.inCard2,.inCard3,.inCard4,.inCard5,.inCard6{
+    background-color: white;
+    width: 45%;
+    height: 200px;
+    margin: 5px;
+    
+}
+/* .inCard2{
+    background-color: white;
+    width: 45%;
+    height: 200px;
+    margin: 5px;
+    
+} */
+/* .inCard3{
+    background-color: white;
+    width: 45%;
+    height: 200px;
+    margin: 5px;
+    
+} */
+/* .inCard4{
+    background-color: white;
+    width: 45%;
+    height: 200px;   
+    margin: 5px;
+}
+.inCard5{
+    background-color: white;
+    width: 45%;
+    height: 200px;
+    
+    margin: 5px;
+}
+.inCard6{
+    background-color: white;
+    width: 45%;
+    height: 200px;
+    
+    margin: 5px;
+} */
+.box{
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.clearFix h5{
+    background-color: #242B2E;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+.clearFix{
+   overflow: auto;
+   content: "";
+   clear: both;
+   display: table;
+   border: 2px solid #CAD5E2;
+   box-shadow: 2px 2px 10px;
+   border-radius: 5px;
+}
+.clearFix:hover{
+    box-shadow: 2px 2px 4px gray;
+}
+
+/* .inCard1 button{
+   border: none;
+   float: right;
+   margin-right: 10px ;
+   cursor: pointer;
+} */
+
+
+.inCard2 textarea{
+    width: 80%;
+    height:50% ;
+    margin-top:10px;
+    resize: none;
+}
+.inCard2 button{
+ float: right;
+ margin-right: 10%;
+ cursor: pointer;
+ background-color: #383CC1;
+ color: white;
+ padding: 6px;
+ border: none;
+ border-radius: 10%;
+}
+
+#readMore{
+    display: none;
+}
+
+.inCard5 audio{
+    width: 100%;
+   margin: 50px auto;
+}
+#menuItems{
+    display: none;
+    margin-left: 10%;
+    
+}
+#menuItems a:hover{
+    background-color: #242B2E;
+    color: white;
+}
+#menuItems .nameBoard:hover{
+    background-color: blue;
+}
+#menuItems h2{
+    background-color: #242B2E;
+    font-size: 20px;
+    padding: 3px;
+    width: 224px;
+  
+}
+#menuItems a{
+    text-decoration: none;
+    display: block;
+    background-color:white;
+    color: black;
+    width: 200px;
+    padding: 15px;
+    border-bottom: 2px solid grey;
+    font-family: sans-serif;
+}
+#menuItems i{
+    background: transparent;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+
+}
+.topNav .icon{
+    cursor: pointer;
+    position: absolute;
+    display: block;
+   margin-left: 3%;
+    
+}
+.topNav{
+    position: relative;
+    /* overflow: hidden; */
+    
+}
+.clearBorder{
+    border: none;
+}
+.inMenu{
+    font-size: 13px;
+    background-color: #CAD5E2;
+    padding: 13px;
+    text-align: left;
+}
+.inMenu i{
+    font-size: 16px;
+    padding: 5px;
+    background-color: blue;
+    border-radius: 50%;
+    color: white;
+}
+.inMenu span{
+    font-size: 20px;
+}
+.homeMenu{
+   display: inline-block;
+   float: right;
+   margin-right: 5%;
+    
+}
+
+.homeMenu i{
+    padding: 5px;
+     background-color: lightseagreen;
+    border-radius: 50%;
+    color: white;
+}
+
+.finalSubmit{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+}
+.finalSubmit button{
+    font-size: 20px;
+    padding: 10px;
+    margin-right: 10%;
+    margin-bottom: 1%;
+    border-radius: 10%;
+    cursor: pointer;
+    border: none;
+    background-color: #383CC1;
+    color: white;
+}
+.topNav div i{
+    background-color: #242B2E;
+    padding: 5px;
+
+}
+.finalSubmit i,.clearFix i{
+    margin-bottom: 15px;
+    margin-right: 20px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    text-shadow: 2px 2px 1px black,0 0 2px black,0 0 3px black;
+}

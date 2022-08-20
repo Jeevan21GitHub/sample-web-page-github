@@ -1,0 +1,142 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <title>Task1</title>
+</head>
+<body>
+    
+    <div class="container">
+        
+        <div class="header"><h3>Jurney board collapsed</h3>
+            <div class="topNav">
+                
+                <div style="margin-top: 40px;" class="icon" onclick="toggleMenu()">
+                   <div style="position:absolute;"><i class="fa-solid fa-bars"></i></div>
+                   <br>
+                   <div id="menuItems">
+                    <h2>Jouney Board</h2>
+                   <div>
+                    <a class="nameBoard" href="#"><b>1.Name of the task goes here</b></a>
+                    <a href="#"><i class="fa fa-square"></i> Asset Heading 1</a>
+                    <a href="#"><i class="fa fa-square"></i> Asset Heading 2</a>
+                    <a href="#"><i class="fa fa-square"></i> Asset Heading 3</a>
+                    <a href="#"><i class="fa fa-square"></i> Asset Heading 4</a>
+                    <a href="#"><i class="fa fa-square"></i> Asset Heading 5</a>
+                    <a href="#"><i class="fa fa-square"></i> Asset Heading 6</a>
+                   </div>
+                </div>
+                </div>
+                
+               
+            </div>
+        </div>
+        <div class="innerContainer">
+          
+            <div class="innerHeader">
+                <div class="inMenu">
+                
+                    <i class="fa-solid fa-atom"></i> <span>DEEP <strong style="color: #5A20CB;">THOUGHT</strong></span>
+                        <div class="homeMenu">
+                            <i class="fa-solid fa-house"></i>
+                            <i class="fa-solid fa-address-card"></i>
+                            <i class="fa-solid fa-screwdriver-wrench"></i>
+                            <i class="fa-solid fa-bell" ></i>
+                            <i class="fa-solid fa-circle" 
+                            style="background-color: grey;color: grey;"></i>
+                            <i class="fa-solid fa-ellipsis-vertical" style="background:transparent;font-size: 20px;"></i>
+                        </div>
+                    
+                   
+                
+                    
+            
+               </div>
+                <div class="inhead"><h5>Name of the task foes here</h5></div>
+               <div class="box">
+                <div class="inCard1 clearFix">
+                    <h5>Asset Heading 1</h5>
+                    <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti hic numquam consequatur voluptatem blanditiis assumenda! Dolorem exercitationem placeat, assumenda laborum obcaecati rem! Ipsa culpa, saepe animi amet quia qui aspernatur.<span id="dots">...</span> <span id="readMore">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, vitae minima a sunt accusamus laboriosam repellat inventore sequi ratione non qui praesentium repudiandae maiores alias similique minus officia distinctio ipsam.</span></p>
+                    <br><br>
+                    <div>                      
+                        <div style="float: right;margin-right:10px;">
+                            <i onclick="btnCard1()" class="fa fa-angle-up" id="btnIcon1"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="inCard2 clearFix">
+                    <h5>Asset Heading 2</h5>
+                    <textarea >Type your notes here...</textarea>
+                    <div><button>Submit</button></div><br><br>
+                    <div style="float: right;margin-right:10px;">
+                        <i onclick="btnCard2()" class="fa fa-angle-up" id="btnIcon2"></i>
+                    </div>
+                    
+                
+                </div>
+                <div class="inCard3 clearFix">
+                    <h5>Asset Heading 3</h5>
+                   <embed src="./pdf/JEEVANANDHAM S.pdf#toolbar=0" type="application/pdf" width="100%" />
+                    <br><br>
+                    <div style="float: right;margin-right:10px;">
+                        <i onclick="btnCard3()" class="fa fa-angle-up" id="btnIcon3"></i>
+                    </div>
+                </div>
+                <div class="inCard4 clearFix">
+                    <h5>Asset Heading 4</h5>
+                   <div>
+                    <img src="./projectImages/news.png" alt="image" width="100%">
+                   </div>
+                   <br>
+                    <div style="float: right;"><button class="clearBorder" id="btn" onclick="btnCard4()"> <i  class="fa fa-angle-up" id="btnIcon4"></i></button></div>
+                </div>
+                <div class="inCard5 clearFix">
+                    <h5>Asset Heading 5</h5>
+                    <div>
+                        <audio controls>
+                            <source src="./audio/a1.mp3" type="audio/mp3">
+                            <source src="./audio/a1.ogg" type="audio/ogg" >
+                            Your Browser not support
+                        </audio>
+                        <br>
+                    <div style="float:right;"><button class="clearBorder" id="btn" onclick="btnCard5(this)"> <i  class="fa fa-angle-up" id="btnIcon5"></i></button></div>
+                    </div>
+                </div>
+                <div class="inCard6 clearFix">
+                    <h5>Asset Heading 6</h5>
+                    <button onclick="playPause()">Play/Pause</button>
+                    <button onclick="makeBig()">Big</button>
+                    <button onclick="makeSmall()">Small</button>
+                    <button onclick="makeNormal()">Normal</button>
+                    <br><br>
+                    <video id="video1" width="170px">
+                        <source src="./videos/v3.mp4" type="video/mp4">
+                        <source src="./videos/v3.ogg" type="video/ogg">
+                        Your Browser not support this video format
+                    </video>
+                    <br>
+                    <div style="float: right;"><button class="clearBorder" id="btn" onclick="btnCard6(this)"> <i  class="fa fa-angle-up" id="btnIcon6"></i></button></div>
+                </div>
+               </div>
+            </div>
+        </div>
+        <div class="finalSubmit">
+            <button >Submit</button>
+            <i onclick="fiIcon()" class="fa fa-angle-left" id="fiIcon"></i>
+            
+        </div>
+
+    </div>
+    <script src="index.js">
+     
+    </script>
+    
+</body>
+</html>
