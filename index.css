@@ -258,15 +258,29 @@ body{
     box-shadow: 2px 2px 4px #242B2E;
     border-radius: 15%;
     color: white;
-    text-shadow: 2px 2px 4px black,0 0 4px black,0 0 4px black;
+    text-shadow: 2px 2px 3px black,0 0 4px black,0 0 3px black;
+}
+.inCard1 p{
+    text-align: left;
+    padding: 4%;
+    color: white;
+    text-shadow: 2px 2px 3px black,0 0 3px black;
+}
+.inCard2 textarea{
+    text-align: left;
+    padding: 4%;
+    color: white;
+    text-shadow: 2px 2px 3px black,0 0 3px black;
 }
 
 @media screen and (max-width:600px){
     .homeMenu i{
-        padding: 3px;
+        padding: 1px;
         background-color: lightseagreen;
-        border-radius: 50%;
+        border-radius: 30%%;
         color: white;
+        font-size: 10px;
+        
     }
     .homeMenu{
         display: inline-block;
