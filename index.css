@@ -5,11 +5,13 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body{
     /* background-color: yellow; */
     font-family:sans-serif;
     width: auto;
+   
 }
 .container{
     background-color:white;
@@ -247,4 +249,30 @@ body{
     color: white;
     cursor: pointer;
     text-shadow: 2px 2px 1px black,0 0 2px black,0 0 3px black;
+}
+.inCard6 button{
+    border: 1px solid gray;
+    padding: 2%;
+    margin: 2px;
+    background: transparent;
+    box-shadow: 2px 2px 4px #242B2E;
+    border-radius: 15%;
+    color: white;
+    text-shadow: 2px 2px 4px black,0 0 4px black,0 0 4px black;
+}
+
+@media screen and (max-width:600px){
+    .homeMenu i{
+        padding: 3px;
+        background-color: lightseagreen;
+        border-radius: 50%;
+        color: white;
+    }
+    .homeMenu{
+        display: inline-block;
+        float: right;
+        margin-right: 1%;
+         
+     }
+    
 }

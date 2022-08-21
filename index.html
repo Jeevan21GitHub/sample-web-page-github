@@ -73,8 +73,8 @@
                 </div>
                 <div class="inCard2 clearFix">
                     <h5>Asset Heading 2</h5>
-                    <textarea >Type your notes here...</textarea>
-                    <div><button>Submit</button></div><br><br>
+                    <textarea id="notes">Type your notes here...</textarea>
+                    <div><button onclick=alert(notes) >Submit</button></div><br><br>
                     <div style="float: right;margin-right:10px;">
                         <i onclick="btnCard2()" class="fa fa-angle-up" id="btnIcon2"></i>
                     </div>
@@ -83,7 +83,7 @@
                 </div>
                 <div class="inCard3 clearFix">
                     <h5>Asset Heading 3</h5>
-                   <embed src="./pdf/JEEVANANDHAM S.pdf#toolbar=0" type="application/pdf" width="100%" />
+                   <embed src="./pdf/HTML & CSS.pdf#toolbar=0" type="application/pdf" width="100%" />
                     <br><br>
                     <div style="float: right;margin-right:10px;">
                         <i onclick="btnCard3()" class="fa fa-angle-up" id="btnIcon3"></i>
@@ -120,9 +120,9 @@
                     <button onclick="makeSmall()">Small</button>
                     <button onclick="makeNormal()">Normal</button>
                     <br><br>
-                    <video id="video1" width="170px">
-                        <source src="./videos/v3.mp4" type="video/mp4">
-                        <source src="./videos/v3.ogg" type="video/ogg">
+                    <video id="video1" width="170px" controls>
+                        <source src="./videos/v1.mkv" type="video/mp4">
+                        <source src="./videos/v1.ogg" type="video/ogg">
                         Your Browser not support this video format
                     </video>
                     <br>
